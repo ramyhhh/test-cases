@@ -6,7 +6,7 @@
 
 1. **Setup**: Using Unreal Engine's 3rd person character template, create a basic level representing the inside of an old castle. This doesn't need to be intricate - a single large room with walls, floor, and ceiling will suffice. Use appropriate material for the walls to give a "castle" feel.
 
-2. **Trigger & Material Change**: Create a special stone tile on the floor (this can be a separate actor with a specific material) which acts as a trigger when the player steps on it. Use a box collision to detect when the player's character enters the stone's area. When the player steps on this stone, dynamically change the material of the castle's walls to a different one (this could be a slightly glowing version of the original wall material, for example) using Blueprints or C++.
+2. **Trigger & Material Change**: Create a special stone tile on the floor (this can be a separate actor with a specific material) which acts as a trigger when the player steps on it. Use a box collision to detect when the player's character enters the stone's area. When the player steps on this stone, dynamically change the material of the castle's walls to a different one (this could be a slightly glowing version of the original wall mat     erial, for example) using Blueprints or C++.
 
 3. **Character Control Switching**: As soon as the material change occurs, switch the game's character control from 3rd person to 1st person. This can be achieved by swapping out the character's camera or altering the camera's perspective and position. Create a transition effect if desired.
 
